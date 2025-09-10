@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <style>
+        .firstbox {
+            margin-top: 60px;
+            justify-self: center;
+            background-color: rgb(98, 98, 97);
+            height: 410px;
+            width: 250px;
+            text-align: center;
+            border-radius: 50px;
+            border: solid rgb(186, 185, 183) 7px;
+            color: rgba(242, 225, 192, 1);
+        }
+
+
+        .box {
+            margin-top: 20px;
+            justify-self: center;
+            background-color: rgb(186, 185, 183);
+            height: 330px;
+            width: 200px;
+            text-align: center;
+            border-radius: 50px;
+            border: solid rgb(186, 185, 183) 4px;
+            color: rgba(242, 225, 192, 1);
+        }
+
+        .plus {
+            background-color: rgb(215, 199, 121);
+        }
+
+        .minus {
+            background-color: rgb(134, 243, 249);
+        }
+
+
+        .age {
+            margin-top: 50px;
+        }
+
+
+        .dmood {
+            margin-top: 10px;
+        }
+    </style>
+
+    <div class="firstbox">
+        <div id="firstdiv" class="box">
+
+            <h2>counter</h2>
+            <h2 id="counterDisplay">0</h2>
+            <div class="container">
+                <div class="buttons">
+                    <button class="plus" id="addBtn">➕ </button>
+                    <button id="resetBtn"> reset </button>
+                    <button class="minus" id="subtractBtn">➖</button>
+
+                    <div class="container age">
+                        <h4>Age Calculator</h4>
+                        <input type="date" id="birthdate"> <br>
+                        <button onclick="calculateAge()">Calculate Age</button>
+                        <div id="result">. .</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="dmood">
+            <button onclick="darkmood()">darkmood</button>
+            <button onclick="lightmood()">lightmood</button>
+        </div>
+
+    </div>
+
+
+
+    </div>
+    <script src="./another,cranslator.js"></script>
+
+
+</body>
+
+</html>
